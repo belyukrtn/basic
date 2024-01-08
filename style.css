@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+.all-content{
+  background: #f7f5f2;
+}
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: #94A684;
+  border-radius: 10px;
+}
+html::-webkit-scrollbar{
+  width: 10px;
+}
+/* navbar */
+#navbar{
+  background-color: #94A684;
+  font-family: 'Roboto', sans-serif;
+}
+#logo img{
+  border-radius: 10px;
+  width: 160px;
+  margin-left: 40px;
+}
+.navbar-nav{
+  margin-left: 50px;
+}
+.nav-item .nav-link{
+  color: black;
+  margin-left: 10px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+  background: #f7f5f2;
+  border-radius: 5px;
+  color: black;
+}
+#navbar form button{
+  background: black;
+  color: white;
+  border: 1px solid white;
+}
+/* navbar */
+/* home content */
+#home{
+    width: 100%;
+    height: 90vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./images/mental2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+.content{
+  padding-top: 210px;
+  margin-left: 56px;
+}
+.content h3{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+.content p{
+  margin-top: 20px;
+  color: white;
+}
+#btn{
+  width: 150px;
+  height: 36px;
+  margin-top: 20px;
+  background: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#btn:hover{
+  background: #94A684;
+  color: white;
+}
+/* home content */
+
+
+/* news */
+
+.news form { width: 400px;
+  max-width: 90%;
+  position: relative;
+
+}
+
+.news form input:first-child { 
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid #94A684;
+  outline: none;
+  border-radius: 30px;
+  font-family:  poppins;
+  font-weight: bold;
+
+}
+.news form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  font-weight: bold;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 70px;
+  color: #ffffff;
+  position: absolute;
+  background-color:#94A684;
+  box-shadow: 0 0 5px #000000, 0px 0px 2px;
+  top: 6px;
+  right: 6px;
+  cursor: all-scroll;
+}
+
+/* about */
+#about{
+  width: 100%;
+  height: 100vh;
+  background: #f7f5f2;
+  font-family: 'Roboto', sans-serif;
+}
+#about .container{
+  padding-top: 90px;
+}
+.heading{
+  text-align: center;
+  margin-bottom: 14px;
+  color: rgb(12, 13, 13);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.col-md-6 {
+  color: #393e35;
+  margin-bottom: 10px;
+}
+
+.col-md-6 h3 {
+  color: #194015;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.col-md-6 p {
+  color: #0c0c0c;
+  text-align: justify;
+}
+
+.heading span{
+  color: #94A684;
+  font-weight: bold;
+}
+#about .card{
+  border-radius: 10px;
+}
+#about .card img{
+  border-radius: 10px;
+}
+#about-btn{
+  width: 200px;
+  height: 36px;
+  background: transparent;
+  border: 2px solid #AEC3AE;
+  color: #94A684;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#about-btn:hover{
+  background: #94A684;
+  color: white;
+}
+@media screen and (max-width:982px){
+  #about p{
+    font-size: 8px;
+  }
+}
+@media screen and (max-width:766px){
+  #about p{
+    font-size: 15px;
+  }
+  #about{
+    height: 120vh;
+  }
+}
+/* about */
+
+
+
+/* footer */
+#footer{
+  width: 100%;
+  background: #94A684;
+  margin-top: 50px;
+}
+.footer-logo img{
+  width: 180px;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#footer .socail-links i{
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:767px) {
+  #footer {
+    font-size: 15px;
+
+  }
+}
+
+/* footer */
+html{
+  scroll-behavior: smooth;
+}
+.arrow{
+  position: fixed;
+  border-radius: 50px;
+  height: 70px;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+}
